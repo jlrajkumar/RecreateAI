@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+
+
+body{
+    background: url("./resources/coronaMask.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular';
+    display: flex;
+    align-items: center;
+    justify-content: left;
+   
+    
+}
+
+body > div {
+    font-size:3vw;
+    line-height: 1em;
+    padding: 0.5em 1em;
+    
+}
+
+ .text1 {
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.458);
+    width: fit-content;
+    font-weight:bold;
+    padding-left: 10px;
+    border-radius: 10px;
+    transform: translateY(-50%);
+    
+}
+
+.bye{
+    transform-origin: 50%;
+    width: fit-content;
+    border-radius: 5px;
+    padding-left: 5px;
+    transform: translateY(100%);
+}
+    

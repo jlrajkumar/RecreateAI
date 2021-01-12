@@ -1,0 +1,69 @@
+<html>
+    <head>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script>
+                function test()
+            {
+                var txt= document.getElementById("num").value
+               // document.write(txt)
+               var strr = [];
+            
+           // const axios = require('axios').default;
+                 var url='https://cricapi.com/api/playerStats?apikey=2QDYVH8LfuYM5MoTn9yIb4vi6JU2&pid=';
+
+                 axios.get(url+txt)
+                           .then(resp => {
+                       console.log(resp.data);
+                       //resp.json({ message: 'Request received!', data });
+                    var str =   JSON.stringify(resp.data);
+                       //document.write(str);
+                       var obj = JSON.parse(str);
+                       document.writeln(obj.pid + "<br>") ;
+                       document.writeln(obj.profile+"<br>");
+                       document.writeln(obj.imageURL+"<br>");
+                       document.writeln(obj.battingStyle+"<br>");
+                       document.writeln(obj.bowlingStyle+"<br>");
+                       document.writeln(obj.majorTeams+"<br>");
+                       document.writeln(obj.currentAge+"<br>");
+                       document.writeln(obj.born+"<br>");
+                       document.writeln(obj.fullName+"<br>");
+                       ocument.writeln(obj.name+"<br>");
+                       document.writeln(obj.country+"<br>");
+                       document.writeln(obj.playingRole+"<br>");
+                       document.writeln(obj.v+"<br>");
+                       document.writeln(obj.data+"<br>");
+                       document.writeln(obj.ttl+"<br>");
+                       document.writeln(obj.provider+"<br>");
+                       document.writeln(obj.creditsLeft+"<br>");
+                       document.writeln(obj.data+"<br>");
+                 
+
+                                  })
+               .catch(err => {
+                      // Handle Error Here
+                   console.error(err);
+                   //document.write("invalid input");
+    });
+
+    document.write(strr);
+
+
+}
+            </script>
+            <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+        <b> ENTER THE PLAYER ID:</b>  <input type="number"  id="num" required>
+        </div>
+        <div >
+            <button class="btn btn-danger btn-block" style="margin-left: 20%" onclick="test()" >  CLICK ME </button>
+        </div>
+
+
+
+
+
+    </body>
+    
+</html>

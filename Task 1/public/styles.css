@@ -1,0 +1,151 @@
+.topnav a {
+color: #10b9fc;
+text-decoration: none;
+font-weight: bolder;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 10px ;
+
+}
+
+
+button {
+    background-color: #10b9fc;
+    color:white;
+    border:0;
+}
+
+.container2{
+    padding-top:30px;
+    padding-left: 230px;
+    background-color:rgba(241, 241, 241, 0.45);
+  
+    
+}
+
+.container2 img{
+    
+    width:300px;
+    height:200px;
+    border:  1px solid rgb(22, 20, 20);
+   
+    
+ 
+}
+#getstarted{
+    background-color: deepskyblue;
+    color:white;
+    padding-top:20px;
+    font-weight: bold;
+
+}
+
+.working{
+    width: 20px;
+    height:20px;
+
+}
+.material-icons{
+    padding-left: 5px;
+    color: white;
+}
+
+
+span{
+    display: block;
+    float: right;
+  }
+
+  .btnstop{
+padding-top:10px;
+padding-right: 10px;
+
+}
+
+.vim{
+    color:green;
+    text-align: right;
+}
+
+
+.navbar a {
+    
+    padding: 6px;
+    color: rgb(91, 169, 233);
+    text-decoration: none;
+    font-size: 17px;
+    width: 10%;
+    border-radius: 20px;
+    text-align: center;
+    
+    
+}
+
+.navbar a:hover {
+    background-color: rgb(143, 168, 177);
+    
+  }
+
+  .linkvid{
+padding-bottom:2px;
+
+
+  }
+
+  .docimg{
+
+    position: relative;
+    right:30px;
+    
+    
+  }
+
+  .groupworkimg{
+position: absolute;
+top:660px;
+left:250px;
+
+  }
+
+  .window{
+    position: relative;
+    width:100px;
+    padding-left:500px;
+   
+  }
+
+  .playcontainer{
+      background-color: lavender;
+      height:120px;
+      width:200px;
+     position: absolute;
+     border-radius: 10px;
+     left:700px;
+     top:180px;
+  }
+
+  .book{
+   padding-left: 190px;
+   padding-top: 100px    ;
+  }
+
+  .play{
+
+    padding-top: 50px;
+    padding-left: 90px;
+  }
+
+  .fa-play-circle-o{
+      color:rgb(27, 131, 216);
+      
+  }
+  
+  .fb fa{
+      background-color: mediumspringgreen;
+      padding-right: 10px;
+  }
+
+.fa-youtube-play{
+  padding-top: 100px;
+  padding-left: 20px;
+  transform:rotate(20deg);
+}
